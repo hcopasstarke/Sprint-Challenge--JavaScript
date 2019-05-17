@@ -42,6 +42,11 @@ A closure is a feature that encloses variables and functions within a scope chai
 
 4. Describe the four rules of the 'this' keyword.
 
+A. When a functions inside of the global scope, "this" points to the window.
+B. When a dot is in front of a function, the object before the dot is what "this" points to.
+C. When a constructor function is used, "this" refers to the instance of the newly created object and returned by the constructor function. 
+D. Call and apply allow "this" to be explicitly defined.
+
 5. Why do we need super() in an extended class?
 
 We need super() so we can access the properties from a parent class. 
